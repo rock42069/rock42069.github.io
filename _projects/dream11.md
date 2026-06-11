@@ -3,7 +3,7 @@ layout: page
 title: Dream11 Team Recommendation System
 description: ML pipeline + React product for fantasy playing-XI optimization — Inter IIT Tech Meet 13.0
 importance: 3
-category: work
+category: Work
 related_publications: false
 ---
 

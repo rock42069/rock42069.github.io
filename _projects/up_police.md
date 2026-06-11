@@ -3,7 +3,7 @@ layout: page
 title: UP Police Notice Information System
 description: Multilingual RAG system for police notices, deployed in production and showcased at the All India Police Conference 2024
 importance: 1
-category: work
+category: Work
 related_publications: false
 ---
 

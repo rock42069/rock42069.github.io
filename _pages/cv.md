@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 3
 cv_pdf: trijal_srivastava_resume.pdf # add your resume PDF to assets/pdf/ and uncomment to enable the download button

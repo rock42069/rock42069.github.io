@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Things I've built — applied AI products and research projects.
 nav: true
 nav_order: 2
-display_categories: [work, research]
+display_categories: [Work, Research]
 horizontal: false
 ---
 

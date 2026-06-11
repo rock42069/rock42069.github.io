@@ -3,7 +3,7 @@ layout: page
 title: GNN-based AQI Forecasting
 description: Spatial-temporal graph neural networks for air quality forecasting across 133 locations — MADHAV Labs, IIT Kanpur
 importance: 5
-category: research
+category: Research
 related_publications: false
 ---
 

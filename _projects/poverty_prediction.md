@@ -3,7 +3,7 @@ layout: page
 title: Open Intelligence for Poverty Prediction
 description: Satellite imagery + ML to classify income levels for 7M+ families in Haryana — CDIS Labs, IIT Kanpur
 importance: 6
-category: research
+category: Research
 related_publications: false
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: AI-Driven Video Segmentation
 description: Scene segmentation for educational content with Wadhwani AI — LGSS (CVPR'20) and NeighborNet on multimodal features
 importance: 4
-category: research
+category: Research
 related_publications: false
 ---
 

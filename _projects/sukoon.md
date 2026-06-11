@@ -3,7 +3,7 @@ layout: page
 title: Sukoon — AI-Driven Mental Health Support
 description: Multi-agent mental health platform on WhatsApp, built with People + AI (EkStep Foundation) and piloted with 600+ participants at IITK
 importance: 2
-category: work
+category: Work
 related_publications: false
 ---
 
