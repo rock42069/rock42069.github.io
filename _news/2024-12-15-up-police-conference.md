@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The [UP Police Notice Information System](https://rag.agrapolice.in) was showcased at the **All India Police Conference 2024** — received a Letter of Appreciation from DCP Agra City. :tada:
+The [UP Police Notice Information System](https://rag.agrapolice.in) was showcased at the **All India Police Conference 2024** — received a Letter of Appreciation from DCP Agra City.
