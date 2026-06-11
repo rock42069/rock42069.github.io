@@ -30,7 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "news-the-up-police-notice-information-system-was-showcased-at-the-all-india-police-conference-2024-received-a-letter-of-appreciation-from-dcp-agra-city-tada",
+        },{id: "news-the-up-police-notice-information-system-was-showcased-at-the-all-india-police-conference-2024-received-a-letter-of-appreciation-from-dcp-agra-city",
           title: 'The UP Police Notice Information System was showcased at the All India Police...',
           description: "",
           section: "News",},{id: "news-started-as-an-amts-intern-at-salesforce-industries-cloud-bangalore-later-received-a-pre-placement-offer",
