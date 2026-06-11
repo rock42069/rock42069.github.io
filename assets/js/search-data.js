@@ -4,34 +4,27 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "Things I&#39;ve built — applied AI products and research projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "Full-stack &amp; applied AI engineer. B.Tech in Electrical Engineering at IIT Kanpur (minor in ML &amp; Systems).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "papers, white papers, and open-source publications.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "my GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
@@ -46,7 +39,7 @@ ninja.data = [{
           section: "News",},{id: "news-joined-sazabi-ai-san-francisco-remote-as-a-founding-engineer-building-agentic-frameworks-mcp-servers-and-product-integrations",
           title: 'Joined Sazabi AI (San Francisco, remote) as a Founding Engineer, building agentic frameworks,...',
           description: "",
-          section: "News",},{id: "news-led-iit-kanpur-s-contingent-to-an-overall-2nd-position-at-inter-iit-tech-meet-14-0-ending-a-6-year-podium-gap-trophy",
+          section: "News",},{id: "news-led-iit-kanpur-s-contingent-to-an-overall-2nd-position-at-inter-iit-tech-meet-14-0-ending-a-6-year-podium-gap",
           title: 'Led IIT Kanpur’s contingent to an overall 2nd position at Inter IIT Tech...',
           description: "",
           section: "News",},{id: "projects-gnn-based-aqi-forecasting",
@@ -59,6 +52,11 @@ ninja.data = [{
           description: "ML pipeline + React product for fantasy playing-XI optimization — Inter IIT Tech Meet 13.0",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dream11/";
+            },},{id: "projects-dst-medtech-white-paper",
+          title: 'DST MedTech White Paper',
+          description: "National strategy white paper for reducing India&#39;s 85% MedTech import dependence — DST, Govt. of India",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/medtech_whitepaper/";
             },},{id: "projects-open-intelligence-for-poverty-prediction",
           title: 'Open Intelligence for Poverty Prediction',
           description: "Satellite imagery + ML to classify income levels for 7M+ families in Haryana — CDIS Labs, IIT Kanpur",
