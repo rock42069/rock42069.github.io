@@ -2,96 +2,191 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Trijal Srivastava
+    - name: Location
+      value: New Delhi, India
+    - name: Email
+      value: trijalsrivastava30@gmail.com
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
-- title: Education
-  type: time_table
+- title: Objective
+  type: list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - I want to work in full-stack engineering or applied roles that demand ownership, end-to-end product thinking, and execution at scale, building robust, production-level products with real-world impact.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Founding Engineer
+      institution: Sazabi AI, San Francisco (Remote)
+      year: Jul 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built core product features, including Linear, Slack, and GitHub integrations, and notifications (Inngest, Sentry).
+        - Developed React frontend, MCP servers/tools, and an agentic framework using LangGraph.
+        - Deployed and managed serverless applications on AWS Lambda.
+
+    - title: AMTS Intern (Pre-Placement Offer)
+      institution: Industries Cloud, Salesforce, Bangalore
+      year: May 2025 – Jun 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Automated FlexCards in OmniStudio by building an MCP Server, reducing manual UI creation by 90%.
+        - Wrote custom tools, integrated MCP with Cursor, migrated codebase to TypeScript, and integrated SOQL for data retrieval.
+        - Implemented LLM orchestration (RAG, chunking, fallback logic, caching) to scale metadata generation.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Machine Learning Intern
+      institution: Noora Health (Y Combinator '24), Remote
+      year: Dec 2023 – May 2024
       description:
+        - Digitised patient reports using reasoning LLM methods on multimodal Gemini models, achieving 85% accuracy.
+        - Built a multilingual RAG system for maternal health queries, supporting multiple languages.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Selected Participant (Top 7 out of 9,000+ IITK students)
+      institution: Dainik Jagran & Google Cloud, Noida
+      year: Nov 2023 – Dec 2023
+      description:
+        - Built Gen-AI web stories using GCP to boost social media footprint.
+        - Used Imagen for image captioning and PaLM-2 for narrative generation; stored outputs in GCP Buckets and generated stories via Google Web Stories API.
+        - Achieved 2× increase in content output, delivering 7,000 stories/day to 120M+ users.
 
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: B.Tech in Electrical Engineering (Minor in Machine Learning & Systems)
+      institution: Indian Institute of Technology Kanpur
+      year: 2022 – Present
+      description:
+        - CGPA — 9.0/10
+        - Academic Excellence Award (2024–25)
+    - title: Class XII (CBSE)
+      institution: Delhi Public School, Faridabad
+      year: 2022
+      description:
+        - Percentage — 96.0%
+    - title: Class X (CBSE)
+      institution: Delhi Public School, Faridabad
+      year: 2020
+      description:
+        - Percentage — 97.2%
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: UP Police Notice Information System
+      year: Aug 2024 – Jan 2025
+      description:
+        - Extracted Hindi text, performed semantic chunking, and indexed documents in Pinecone for retrieval.
+        - Built a multilingual React + Flask web app, deployed at <a href="https://rag.agrapolice.in">rag.agrapolice.in</a>.
+        - Showcased at All India Police Conference 2024; received a Letter of Appreciation from DCP Agra City.
+
+    - title: Wadhwani AI — AI-Driven Video Segmentation for Educational Content
+      year: Jul 2024 – Dec 2024
+      description:
+        - Implemented LGSS (CVPR'20) and NeighborNet using multimodal features, Bi-LSTMs, and ResNet50 embeddings.
+        - Processed AVLectures & MovieNet datasets, replicated baselines, and ran cross-domain evaluations.
+        - Achieved mIoU = 0.894, mAP = 13.5%, and F1 = 0.435 through domain-specific fine-tuning and graph refinements.
+
+    - title: Sukoon — AI-Driven Mental Health Support (People + AI, EkStep Foundation)
+      year: Jul 2024 – Dec 2024
+      description:
+        - Developed a multi-agent mental health system using LangGraph, GPT-4/Claude, and clinically-aligned agents.
+        - Deployed the platform on WhatsApp and Streamlit with a Python backend framework.
+        - Conducted large-scale testing with 581 users, achieving a 34% increase in daily engagement.
+
+    - title: Dream11 Team Recommendation System — Inter IIT Tech Meet 13.0
+      year: Dec 2024
+      description:
+        - Built ML pipeline with neural networks and boosting to optimize playing XI selection.
+        - Engineered 100+ contextual features using RFE + SHAP for feature selection and interpretability.
+        - Developed a modular backend with a React UI enabling drag-and-drop customization and real-time analytics.
+        - Deployed an LLM assistant offering multilingual insights and strategic recommendations.
+
+    - title: MADHAV Labs, IIT Kanpur — GNN-based AQI Forecasting
+      year: Jan 2025 – Present
+      description:
+        - Built spatial-temporal graphs linking ERA5 grids + AQI stations across 133 locations.
+        - Implemented encoder-decoder using GATConv, GCNConv, SAGEConv; achieved RMSE 33.64.
+        - Addressed missing data using interpolation + imputation.
+
+    - title: CDIS Labs, IIT Kanpur — Open Intelligence for Poverty Prediction
+      year: Sep 2023 – Apr 2024
+      description:
+        - Used VIIRS nightlight, Mapbox imagery, and OSM data; fine-tuned VGG16 for feature extraction.
+        - Trained XGBoost + SVM to classify income levels for 7M+ families in Haryana.
+
+- title: Patents and Publications
+  type: time_table
+  contents:
+    - title: DST MedTech White Paper
+      institution: DST, Govt. of India
+      description:
+        - Drafted a national strategy to reduce India's 85% MedTech import dependence; benchmarked 15+ countries.
+    - title: "Sukoon: People + AI Mental Health"
+      description:
+        - Co-authored open-source mental health AI paper; coordinated 600+ participants, 50+ health workers, and 10+ NGOs for pilot at IITK.
+
+- title: Leadership Experience
+  type: time_table
+  contents:
+    - title: Contingent Leader, Inter IIT Tech Meet 14.0
+      institution: Indian Institute of Technology Kanpur
+      year: Jul 2025 – Dec 2025
+      description:
+        - Led IIT Kanpur to an overall 2nd position at Inter IIT Tech Meet 14.0, ending a 6-year podium gap.
+        - Executed structured long-term planning with clear ownership, accountability, and parallel execution across teams.
+        - Did relentless review and iteration, promoting product-market fit, technical novelty, and strong presentation quality.
+
+    - title: Leader, IITK Consulting Group
+      institution: Indian Institute of Technology Kanpur
+      year: May 2024 – May 2025
+      description:
+        - Led a 40-member team and built partnerships with 10+ social organizations for pro-bono consulting engagements.
+        - Promoted ICG at the Global India AI Summit to initiate an Advisory Board with experts from 5+ sectors.
+        - Saw 2× YoY growth in projects, 4× increase in funding, and strategic partnerships with Aadhaar and UPI.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024–25
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Academic Excellence Award, IIT Kanpur
+    - year: 2023
       items:
-        - Max Planck Medal
+        - 4th Place — Google Solutions Ideathon
+    - year: 2022
+      items:
+        - AIR 1181, JEE Advanced
+        - AIR 763, JEE Mains
+    - year: 2020
+      items:
+        - Chairman's Gold Medal, DPS Faridabad (2014–2020)
+        - HScTSS Scholarship, Govt. of Haryana
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C, C++, Python, JavaScript, TypeScript, Haskell, Ruby
+    - title: Frameworks
       items:
-        - Description 1.
-        - Description 2.
+        - LangGraph, LangSmith, OpenAI, PyTorch, React, Next.js, tRPC
+    - title: Cloud
+      items:
+        - AWS Lambda ecosystem, GCP (Vertex, Buckets), Salesforce Cloud
+    - title: Tools
+      items:
+        - Git, Linux, HuggingFace, LaTeX, SLURM, Verilog, MIPS
 
-- title: Other Interests
-  type: list
+- title: Relevant Coursework
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: CS
+      items:
+        - Machine Learning (A), Foundations of Modern AI (A), Software Development & Operations (A), Statistical NLP (B+), Cryptography (B+)
+    - title: EE
+      items:
+        - Signals & Systems (A), Communication Theory (A), Digital Electronics (A), Control Systems (B+)
+    - title: Math
+      items:
+        - Probability & Statistics (A)
